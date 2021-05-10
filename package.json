@@ -1,0 +1,39 @@
+{
+  "name": "graphql-compose-toolkit",
+  "version": "1.0.0",
+  "description": "toolkit for use with graphql-compose that provides a declarative interface for generating controllers",
+  "main": "dist/index.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johncastorina/graphql-compose-toolkit.git"
+  },
+  "keywords": [
+    "graphql",
+    "graphql-compose",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "John Castorina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johncastorina/graphql-compose-toolkit/issues"
+  },
+  "homepage": "https://github.com/johncastorina/graphql-compose-toolkit#readme",
+  "dependencies": {
+    "graphql-compose": "8.0.1",
+    "graphql-compose-mongoose": "9.3.0"
+  },
+  "devDependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "graphql-compose": "8.0.1",
+    "graphql-compose-mongoose": "9.3.0"
+  }
+}
