@@ -1,11 +1,4 @@
-<style>
-r { color: Red }
-o { color: Orange }
-g { color: Green }
-blue { color: #16d }
-</style>
-
-# <blue>graphql-compose-toolkit</blue>
+# graphql-compose-toolkit
 Opinionated wrapper for GraphQL Compose Mongoose that provides an API controller factory.
 
 Use an easy to read declarative style to build your GraphQL controllers for Mongoose Models.
