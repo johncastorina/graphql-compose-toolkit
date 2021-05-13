@@ -22,7 +22,7 @@ import { makeGQLComposeToolKit } from 'graphql-compose-toolkit';
 
 export const schemaComposer = new SchemaComposer();
 
-const { 
+export const { 
   gqlComposeMoongoosePipeline,
   getModelTC,
   addSchema,
@@ -31,9 +31,6 @@ const {
   schemaComposer
 });
 
-export getModelTC;
-export addSchema;
-export gqlComposeMongoosePipeline;
 ```
 Building a simple controller
 ```
