@@ -6,11 +6,11 @@ Use an easy to read declarative style to build your GraphQL controllers for Mong
 # Installation
 ### NPM:
 ```
-npm install graphql-compose-toolkit graphql-compose graphql-compose-mongoose
+npm install graphql-compose graphql-compose-mongoose
 ```
 ### Yarn:
 ```
-yarn add graphql-compose-toolkit graphql-compose graphql-compose-mongoose
+yarn add graphql-compose graphql-compose-mongoose
 ```
 ### Usage
 
@@ -18,7 +18,7 @@ yarn add graphql-compose-toolkit graphql-compose graphql-compose-mongoose
 ##### Controller Factory Setup
 ```
 import { SchemaComposer } from 'graphql-compose';
-import { makeGQLComposeToolKit } from 'graphql-compose-toolkit';
+import { makeGQLComposeToolKit } from './graphql-compose-toolkit';
 
 export const schemaComposer = new SchemaComposer();
 
