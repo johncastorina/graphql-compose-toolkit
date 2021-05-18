@@ -4,13 +4,18 @@ Opinionated wrapper for GraphQL Compose Mongoose that provides an API controller
 Use an easy to read declarative style to build your GraphQL controllers for Mongoose Models.
 
 # Installation
+
+This utility is eventually meant to be used as a NPM package, however there currently exists an issue with GraphQL Compose that is preventing this from working properly. 
+
+For now, copy the entire ```src``` folder into your project, make sure you have the peer dependencies installed if you don't already and import and call the ```makeGQLComposeToolKit``` function.
+
 ### NPM:
 ```
-npm install graphql-compose graphql-compose-mongoose
+npm install graphql-compose graphql-compose-mongoose ramda
 ```
 ### Yarn:
 ```
-yarn add graphql-compose graphql-compose-mongoose
+yarn add graphql-compose graphql-compose-mongoose ramda
 ```
 ### Usage
 
