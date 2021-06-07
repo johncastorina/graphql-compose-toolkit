@@ -1,7 +1,3 @@
-// import { SchemaComposer } from 'graphql-compose';
-
-// import { makeCamelCaseFromStrings } from '@bubbles/fp';
-
 import {
   IGQLInputConfig,
   TModelTC,
@@ -15,8 +11,6 @@ import {
 } from '../constants';
 
 import { makeGQLComposeMongoosePipeline } from '../factories';
-
-// export const schemaComposer = new SchemaComposer();
 
 export const makeGQLComposeToolKit = ({
   schemaComposer,
@@ -54,12 +48,3 @@ export const makeGQLComposeToolKit = ({
     getAllSchemas: () => Schemas,
   };
 };
-
-// export const {
-//   gqlComposeMoongoosePipeline,
-//   addSchemas,
-//   getModelTC,
-// } = makeGQLComposeToolKit({
-//   schemaComposer,
-//   tcResolverMethodFormatFN: makeCamelCaseFromStrings,
-// });

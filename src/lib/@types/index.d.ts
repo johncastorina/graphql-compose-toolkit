@@ -148,10 +148,7 @@ export interface GraphQLComposeConfig {
       resolve: any;
     };
   };
-  // CustomFields?: any;
-  // TODO:: fix this typing
-  // ObjectTypeComposerFieldConfigDefinition<TSource, TContext, TArgs>[];
-
+  
   // custom resolvers that can include relational ops, custom DB service methods, etc...
   // these custom resolvers are accessed
   // via the name of the ModelTC + the name property you specify
