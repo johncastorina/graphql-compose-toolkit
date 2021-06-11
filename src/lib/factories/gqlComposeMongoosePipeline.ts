@@ -301,19 +301,6 @@ export const addCustomFields = (
   return Config;
 };
 
-export const wrapCustomFieldResolvers = (
-  Config: GQLComposeConfigWithModelTC
-): GQLComposeConfigWithModelTC => {
-  // const { ModelTC, CustomFields, commonMiddleware } = Config;
-  // if (isNil(CustomFields) || isEmpty(CustomFields)) return Config;
-
-  // Object.keys(CustomFields).forEach(key => {
-  // TODO:: get middlewares onto custom field resolvers
-  // })
-
-  return Config;
-};
-
 export const addAllQueriesToSchemaComposer = (
   GlobalConfig: IGQLComposeToolKitGlobalConfig
 ) => (Config: GQLComposeConfigWithModelTC): GQLComposeConfigWithModelTC => {
